@@ -1,3 +1,6 @@
+/**
+ * 线程安全的计数类
+ */
 public class ThreadSafeCounter {
     private int counter =0;
     public void increment(){

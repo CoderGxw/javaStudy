@@ -37,6 +37,7 @@
       - StateSnapShot返回该实力维护的一组状态快照。
   - **Mainpulator**：维护ImmutableObject所描述的实体状态的变更。每当有状态变更时，负责生成新的ImmutableObject实例以反应状态的变更。
       - changeStateTo是根据新的状态值生成新的ImmutableObject实例。
+  
 ![Immutable模式类图](img/img1.png)
 -  一个严格意义上的**状态不可变对象**需要满足以下所有条件。
     - 1.类本身使用 final修饰:防止其子类改变其定义的行为。
